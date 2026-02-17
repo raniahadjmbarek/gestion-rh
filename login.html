@@ -1,0 +1,26 @@
+<div class="page">
+  <div class="login-card">
+
+    <div class="logo">LEONI</div>
+
+    <h1>Espace Admin <span>RH</span></h1>
+
+    <form>
+
+      <label>User</label>
+      <input type="text" />
+
+      <label>Mot de passe</label>
+      <input type="password" />
+
+      <button type="button" (click)="seConnecter()">Se connecter</button>
+
+      <p class="forgot">
+        Mot de passe oublié?
+        <a href="#" (click)="allerReinitialiser(); $event.preventDefault()">Réinitialiser</a>
+      </p>
+      
+
+    </form>
+  </div>
+</div>
